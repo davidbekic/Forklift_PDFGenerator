@@ -486,7 +486,7 @@ namespace PDFGenerator
             };
             // var model = FreeReportDataSource.GetReportDetails();
             var document = new TechnicalDescriptionDocument(model);
-            document.GeneratePdf("hello.pdf");
+            document.GeneratePdf("./output/test.pdf");
             Console.WriteLine("PDF generated successfully.");
         }
     }
